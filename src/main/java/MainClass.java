@@ -12,7 +12,7 @@ public class MainClass {
 
         WebDriver driver = new ChromeDriver(); //инициализирует драйвер
 
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  old version
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //old version
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //устанавливает таймер ожидания элемента на странице
 
         driver.manage().window().maximize(); //устанавливает максимальный размер окна

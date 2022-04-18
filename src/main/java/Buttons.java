@@ -21,7 +21,7 @@ public class Buttons {
         driver.get("https://github.com/");
         WebElement button = driver.findElement(By.xpath("//form[@class='mx-auto mx-md-0 col-5-max js-signup-form position-relative z-2']//button"));
         if (button.getText().equals("Sign up for GitHub")) { //проверяет что текст кнопки совпадает с заданным
-//            System.out.println("Success!"); //выводит сообщение Success в консоль
+            System.out.println("Success!"); //выводит сообщение Success в консоль
         } else System.out.println("Failed!"); //если текст кнопки не совпадает с заданным, выведет в консоль сообщение Failed
 
 //        System.out.println("Button text is: "+ button.getText()); //проверяем текст кнопки и выводим его в консоль перед нажатием
