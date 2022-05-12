@@ -28,6 +28,8 @@ public class MainClass1 {
         WebElement element = driver.findElement(By.cssSelector("div#simpleSearch input#searchButton")); //находит элемент по css селектору
         WebElement logo = driver.findElement(By.xpath("//div[@id='mw-panel']//div[@id='p-logo']//a")); //находит элемент по xPath
 
+//        System.out.println(element.getText()); //выводит в консоль текс элемента
+
 
 
 

@@ -14,11 +14,11 @@ public class TextFields {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
 
-//        driver.get("https://en.wikipedia.org/wiki/Main_Page");
-//        driver.findElement(By.xpath("//input[@id='searchInput']")).sendKeys("Selenium WebDriver"); //sendKeys метод ввдодит текст в ранее найденный текст филд
-//        driver.findElement(By.xpath("//input[@id='searchButton']")).click();
-//        System.out.println(driver.findElement(By.xpath("//div[@id='searchText']//input")).getAttribute("value")); //метод getAttribute выведет в консоли текст, находящийся в текст филде
-//        driver.findElement(By.xpath("//div[@id='searchText']//input")).clear(); //метод clear очищает текстовое поле
+        driver.get("https://en.wikipedia.org/wiki/Main_Page");
+        driver.findElement(By.xpath("//input[@id='searchInput']")).sendKeys("Selenium WebDriver"); //sendKeys метод ввдодит текст в ранее найденный текст филд
+        driver.findElement(By.xpath("//input[@id='searchButton']")).click();
+        System.out.println(driver.findElement(By.xpath("//div[@id='searchText']//input")).getAttribute("value")); //метод getAttribute выведет в консоли текст, находящийся в текст филде
+        driver.findElement(By.xpath("//div[@id='searchText']//input")).clear(); //метод clear очищает текстовое поле
 
 
 //        driver.get("https://github.com/");
@@ -33,11 +33,11 @@ public class TextFields {
 //        button.submit();
 //        driver.findElement(By.xpath("/html/body/div[1]/header/div/div/div/a")).click();
 //
-        driver.get("https://www.facebook.com/");
-        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("testemail");
-        driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("testepswrd");
-        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button")).submit();
-        System.out.println(driver.findElement(By.xpath("//input[@id='email']")).getAttribute("value"));
+//        driver.get("https://www.facebook.com/");
+//        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("testemail");
+//        driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("testepswrd");
+//        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button")).submit();
+//        System.out.println(driver.findElement(By.xpath("//input[@id='email']")).getAttribute("value"));
 
 
 //        driver.quit();

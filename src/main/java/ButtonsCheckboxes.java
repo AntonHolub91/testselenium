@@ -20,7 +20,7 @@ public class ButtonsCheckboxes {
         driver.findElement(By.xpath("//div[@class='subcategories mb--2em']//a[@title='Крупная бытовая техника']")).click();
         driver.findElement(By.xpath("//div[@class='subcategories mb--2em']//a[@title='Духовые шкафы']")).click();
 
-        if(driver.findElement(By.xpath("//*[@id='catalog-filter-form']//div//div//div/label//input[@value='electrolux' and @data-param-id='brand']")).isSelected())
+        if(!driver.findElement(By.xpath("//*[@id='catalog-filter-form']//div//div//div/label//input[@value='electrolux' and @data-param-id='brand']")).isSelected())
         driver.findElement(By.xpath("//*[@id='catalog-filter-form']//div//div//div/label//input[@value='electrolux' and @data-param-id='brand']/../..")).click(); //кликает чтобы выделить чекбокс
 
         System.out.println(driver.findElement(By.xpath("//*[@id='catalog-filter-form']//div//div//div/label//input[@value='electrolux' and @data-param-id='brand']")).isSelected()); //проверяет выбран ли чекбокс

@@ -33,8 +33,6 @@ public class Links {
 //        driver.get("https://www.facebook.com/");
 //        driver.findElement(By.xpath("//div[@class='_6ltj']//a")).click();
 
-
-
         driver.quit();
     }
 
